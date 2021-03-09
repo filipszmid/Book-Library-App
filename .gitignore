@@ -1,0 +1,16 @@
+.idea/
+.pytest_cache/
+venv/
+__pycache__/
+.flaskenv
+.env
+Udemy-Rest-Api.zip
+certyfikat.png
+certyfikat.pdf
+docgen/
+AWS-wdrozenie-aplikacji-na-chmure.txt
+venv-new/
+tests/
+newdir/
+AWS/
+dir/
