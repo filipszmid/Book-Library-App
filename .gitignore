@@ -7,10 +7,6 @@ __pycache__/
 Udemy-Rest-Api.zip
 certyfikat.png
 certyfikat.pdf
-docgen/
-AWS-wdrozenie-aplikacji-na-chmure.txt
+notes/
 venv-new/
-tests/
-newdir/
-AWS/
-dir/
+tests/__pycache__/
