@@ -4,7 +4,7 @@ import pytest
 def test_registration(client):
     response = client.post('/api/v1/auth/register',
                            json={
-                               'username': 'tewest',
+                               'username': 'test',
                                'password': '123456',
                                'email': 'test@gmail.com'
 
@@ -39,7 +39,7 @@ def test_registration_invalid_data(client, data, missing_field):
 def test_registration_invalid_content_type(client):
     response = client.post('/api/v1/auth/register',
                            data={
-                               'username': 'tewest',
+                               'username': 'test',
                                'password': '123456',
                                'email': 'test@gmail.com'
 

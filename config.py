@@ -28,8 +28,8 @@ class TestingConfig(Config):
 
 class ProductionConfig(Config):
     DB_HOST = os.environ.get('DB_HOST')
-    DB_USERNAME = os.environ.get('DB-USERNAME')
-    DB_PASSWORD = os.environ.get('DB-PASSWORD')
+    DB_USERNAME = os.environ.get('DB_USERNAME')
+    DB_PASSWORD = os.environ.get('DB_PASSWORD')
     DB_NAME = os.environ.get('DB_NAME')
     SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}?charset=utf8mb4'
 

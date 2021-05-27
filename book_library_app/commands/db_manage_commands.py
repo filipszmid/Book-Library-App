@@ -39,7 +39,7 @@ def add_data():
             db.session.add(book)
 
         db.session.commit()
-        print('data has been sucessfully added to database')
+        print('data has been successfully added to database')
     except Exception as exc:
         print(" error: {}".format(exc))
 
