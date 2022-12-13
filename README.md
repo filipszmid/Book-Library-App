@@ -2,9 +2,19 @@
 
 Rest API with authentication which allows user to manage books with their authors.
 There are endpoints for create, update, delete, list authors and books. Pagination is implemented.
-There is a user authentication with a possibility to reset password.
+There is a user authentication with a possibility to reset password. App can handle basic database operations 
+using CLI commands.
 
 App was deployed and maintained on AWS cloud EC2 and Elastic Beanstalk and database in RDS.
+
+## Table of contents
+  - [Environment](#environment)
+  - [Technologies](#technologies)
+  - [Documentation: Book Library Api](#documentation-book-library-api)
+  - [📁 Collection: Authors ](#-collection-authors)
+  - [📁 Collection: Books ](#-collection-books)
+  - [📁 Collection: Authentication ](#-collection-authentication)
+
 
 ## Environment
 Create **.env** file with:
@@ -15,7 +25,21 @@ Create **.env** file with:
 | SQLALCHEMY_DATABASE_URI | Database host uri|             |
 
 
-# Documentation: Book Library Api
+## Technologies
+- python
+- flask
+- jwt
+- werkzeug
+- marshmallow
+- sqlalchemy
+- re
+- pytest
+- AWS EC2
+- AWS RDS
+- AWS Elastic Beanstalk
+
+
+# Documentation Book Library Api
 Backend API for managing authors, books, users etc.
 # 📁 Collection: Authors 
 
@@ -162,7 +186,7 @@ Delete author in database.
 
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
-# 📁 Collection: Books 
+# 📁 Collection Books 
 
 
 ## End-point: Get All Books
