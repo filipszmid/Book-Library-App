@@ -1,7 +1,7 @@
 # Book library application.
 
 Rest API with authentication which allows user to manage books with their authors.
-There are endpoints for create, update, delete, list authors and books.
+There are endpoints for create, update, delete, list authors and books. Pagination is implemented.
 Ther is a user authentication which possible to reset password
 
 App was deployed and maintained on AWS cloud EC2 and Elastic Beanstalk and database in RDS.
